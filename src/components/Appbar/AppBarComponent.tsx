@@ -35,7 +35,7 @@ export const AppBarComponent: React.FC<Props> = ({
             <MenuIcon />
           </IconButton>
           <Typography variant="subtitle1" component="div" sx={{ flexGrow: 1 }}>
-            Mapo Trading App
+            TradePlart - [a trading platform for treasury]
           </Typography>
           {isDarkMode ? <DarkModeIcon /> : null}
           <ThemeSwitch size="small" onChange={onThemeChange} color="default" />

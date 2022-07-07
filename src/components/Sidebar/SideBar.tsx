@@ -51,7 +51,7 @@ export const SideBar: React.FC<Props> = ({
         <DrawerHeader>
           <LogoStyled>
             <Typography variant="subtitle2" component="div" align="left">
-              Repo Logo
+              TradePlart Logo
             </Typography>
           </LogoStyled>
           <IconButton onClick={handleDrawerToggle}>
