@@ -19,10 +19,10 @@ export const Dashboard: React.FC = () => {
           <TotalClients />
         </Stack>
       </Stack>
-      <Stack direction="row" spacing={2} sx={{ paddingRight: 2 }}>
+      {/* <Stack direction="row" spacing={2} sx={{ paddingRight: 2 }}>
         <TopTrades />
         <RejectedTrades />
-      </Stack>
+      </Stack> */}
     </Stack>
   );
 };

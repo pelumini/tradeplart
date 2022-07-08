@@ -23,11 +23,11 @@ export const useHighChartOptions = (): Highcharts.Options => {
       backgroundColor,
     },
     title: {
-      text: 'Montly Repo Revenue',
+      text: 'Monthly Repo Revenue',
       style: textColor,
     },
     subtitle: {
-      text: 'End cas for Repo types',
+      text: 'End cash for Repo types',
       style: textColor,
     },
     legend: {
