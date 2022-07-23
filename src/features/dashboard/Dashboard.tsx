@@ -6,7 +6,7 @@ import { TotalClients } from './components/TotalClients';
 import { TotalEndCashChart } from './components/TotalEndCashChart';
 import { TotalTrades } from './components/TotalTrades';
 
-export const Dashboard: React.FC = () => {
+export const Dashboard: React.FC = (): JSX.Element => {
   return (
     <Stack spacing={2} sx={{ paddingTop: 3, paddingLeft: 2 }}>
       <Typography component="div" variant="h5">
@@ -19,10 +19,10 @@ export const Dashboard: React.FC = () => {
           <TotalClients />
         </Stack>
       </Stack>
-      {/* <Stack direction="row" spacing={2} sx={{ paddingRight: 2 }}>
+      <Stack direction="row" spacing={2} sx={{ paddingRight: 2 }}>
         <TopTrades />
         <RejectedTrades />
-      </Stack> */}
+      </Stack>
     </Stack>
   );
 };

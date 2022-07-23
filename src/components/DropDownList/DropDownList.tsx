@@ -13,7 +13,7 @@ export const DropDownList = <T,>({
   onSelected,
   filterKey,
   label,
-}: Props<T>) => {
+}: Props<T>): JSX.Element => {
   return (
     <Autocomplete
       id={filterKey as string}

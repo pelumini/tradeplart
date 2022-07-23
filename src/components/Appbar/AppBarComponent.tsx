@@ -21,7 +21,7 @@ export const AppBarComponent: React.FC<Props> = ({
   onThemeChange,
   isDarkMode,
   isDrawerOpen,
-}) => {
+}): JSX.Element => {
   return (
     <div>
       <AppBar position="static" variant="elevation" className="appbar-wrapper">
@@ -35,7 +35,7 @@ export const AppBarComponent: React.FC<Props> = ({
             <MenuIcon />
           </IconButton>
           <Typography variant="subtitle1" component="div" sx={{ flexGrow: 1 }}>
-            TradePlart - [a trading platform for treasury]
+            TradePlart Repo Trading App
           </Typography>
           {isDarkMode ? <DarkModeIcon /> : null}
           <ThemeSwitch size="small" onChange={onThemeChange} color="default" />

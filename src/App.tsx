@@ -7,7 +7,7 @@ import { Blotter, Dashboard, TradeTicket } from './features';
 import { BLOTTER, MAIN, ROUTES, TRADETICKET } from './routes';
 import { store } from './store';
 
-export const App: React.FC = () => {
+export const App: React.FC = (): JSX.Element => {
   const [themeMode, setThemeMode] = useState<'light' | 'dark'>('dark');
   const [sideBarToggle, setSideBarToggle] = useState<boolean>(false);
   const history = useHistory();
